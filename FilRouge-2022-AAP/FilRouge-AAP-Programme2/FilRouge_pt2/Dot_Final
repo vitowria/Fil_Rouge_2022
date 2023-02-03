@@ -1,0 +1,21 @@
+digraph POT_test { 
+ node [fontname="Arial", shape="circle", width=0.5];
+12800 [label = "128", color = "red"];
+12800:sw -> 6800 [label = " 0", color = "red"];
+12800:se -> 8200 [label = " 1", color = "red"];
+12900 [label = "129", color = "red"];
+12900:sw -> 12800 [label = " 0", color = "red"];
+12900:se -> 6700 [label = " 1", color = "red"];
+13000 [label = "130", color = "red"];
+13000:sw -> 12900 [label = " 0", color = "red"];
+13000:se -> 6600 [label = " 1", color = "red"];
+13100 [label = "131", color = "red"];
+13100:sw -> 13000 [label = " 0", color = "red"];
+13100:se -> 6500 [label = " 1", color = "red"];
+6500 [label = "A", color = "red"];
+6600 [label = "B", color = "red"];
+6700 [label = "C", color = "red"];
+6800 [label = "D", color = "red"];
+8200 [label = "R", color = "red"];
+131 [label = "131(11)", color = "green"];
+}
